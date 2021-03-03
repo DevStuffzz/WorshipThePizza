@@ -1,0 +1,43 @@
+html {
+    background: linear-gradient(-90deg, rgba(243,255,1,1) 0%, rgba(221,245,85,1) 35%, rgba(255,160,0,1) 100%);
+}
+
+#image-container {
+    display: grid;
+    margin: 0 auto;
+    width: 250px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-container img {
+    width: 100%;   
+}
+
+.clickContainer {
+    display: grid;
+    margin: 0 auto;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.clickContainer button {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 3px solid #DF8E00;
+    
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;   
+}
+.clickContainer button:focus {
+    background: linear-gradient(90deg, rgba(243,255,1,1) 0%, rgba(221,245,85,1) 35%, rgba(255,160,0,1) 100%);
+}
